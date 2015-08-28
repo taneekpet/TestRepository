@@ -171,12 +171,12 @@ int main() {
     double result;
     for(int i = 0 ; i < 26 ; i++) length[i] = 0;
 
-    //printf("\n====================================================================\n");
-    //printf("1) Each token seperate by space.\n");
-    //printf("2) Support only prefix operation (including assignment).\n");
-    //printf("3) Reference to cell by capital character and number, e.g. C12.\n");
-    //printf("4) Empty cell contains zero.\n");
-    //printf("====================================================================\n\n");
+    printf("\n====================================================================\n");
+    printf("1) Each token seperate by space.\n");
+    printf("2) Support only prefix operation (including assignment).\n");
+    printf("3) Reference to cell by capital character and number, e.g. C12.\n");
+    printf("4) Empty cell contains zero.\n");
+    printf("====================================================================\n\n");
 
     while(1) {
         fgets(buf,255,stdin);
